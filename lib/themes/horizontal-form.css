@@ -1,19 +1,70 @@
 
 form.jtable-dialog-form div.jtable-input-field-container {
-padding: 2px 0px 3px 0px;
-border-bottom: 1px solid #ddd;
-width: 550px;
+	padding: 2px 0px 3px 0px;
+	/*border-bottom: 1px solid #ddd;*/
+	width: 600px;
+    display: block;
 }
 
-.jtable-input.jtable-radiobuttonlist-input {
-width: 300px;
-display: inline-block;
+div.jtable-input.jtable-radiobuttonlist-input {
+	width: 300px;
+	display: inline-block;
+}
+div.jtable-input.jtable-text-input {
+    width: 400px;
+    float: left;
+}
+div.jtable-input.jtable-date-input {
+    width: 400px;
+    float: left;
+}
+div.jtable-input.jtable-textarea-input {
+    width: 400px;
+    float: left;
+}
+
+div.jtable-input textarea {
+    width: 396px !important;
+    min-height: 80px;
+}
+
+div.jtable-input textarea.large {
+    width: 396px !important;
+    min-height: 160px !important;
+}
+
+div.jtable-input textarea.x-large {
+    width: 396px !important;
+    min-height: 220px !important;
+}
+
+div.jtable-input.jtable-dropdown-input select{
+	display: inline-block;
+  width: 170px;
+  height: 30px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 
 form.jtable-dialog-form div.jtable-input-label {
-padding: 2px 3px;
-font-size: 1.1em;
-color: #666;
-width: 200px;
-float: left;
+	padding: 10px 3px;
+	font-size: 1.1em;
+	/*scolor: #666;*/
+	width: 200px;
+	float: left;
+}
+
+div.jtable-checkbox-input
+{
+    padding: 10px 3px !important;
 }
