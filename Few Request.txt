@@ -1,0 +1,22 @@
+ArrayCollection 
+	paging
+	next/back/first/last
+	fetch 500 and show local multiple on paging and then show 501 to 1000
+	
+jtable grid template
+	default
+	bootstrap
+	
+If column size is more then div original size then div should change to scrool and table should do
+
+
+Edit / Create form, textboxes watermark
+
+Check box / Radio button  click issue. user lable instead of div
+
+jquery.validation instead of validationEngine
+	asp.net mvc support
+		jquery.validation.jtable.unobtrusive support
+		tooltip2 support
+		
+---------------------------------------------------------------------------------------------------
